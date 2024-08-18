@@ -1,0 +1,43 @@
+Unit 02 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. 
+======================
+
+0. Create a new package under unit03 named "practicum" and implement your 
+   solution to the remaining problems in that package.
+
+1. Create a new enum to represent Pokémon types. You may add as many types as 
+   you want to, but at a minimum, you will need types for grass, fire, and 
+   water.
+
+
+2. Create a new class to represent a Pokémon that meets the following 
+   requirements. 
+   a. Every Pokémon has a name, type, and level.
+   b. A Pokémon may be created with a name, type, and level or with just a name
+      and a type, in which case the default level should be 1.
+   c. A Pokémon's name should be accessible from outside of the class. A 
+      Pokémon trainer may choose to change the Pokémon's name at any time.
+   d. A Pokémon's type should be accessible from outside of the class. The 
+      Pokémon's type can never change.
+   e. A Pokémon's level should be accessible from outside the class. The level 
+      cannot be directly modified, but the Pokémon can level up one level at a
+      time to a max level of 100.
+   f. The Pokémon should have a String representation in the format 
+      "Pokemon{name=<name>, type=<type>, level=<level>}".
+   g. Two Pokémon are considered equal if they have the same type and level. 
+      The name does not matter.
+
+
+3. Create a JUnit unit test for your Pokémon. You should write at least one 
+   test method for each of the non-trivial methods in your class (i.e. you do 
+   not need to test accessors or mutators). You still may use these methods in 
+   your other tests.
