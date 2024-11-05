@@ -1,0 +1,63 @@
+Unit 09 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create a new package under unit10 named 'practicum' and place all
+of your required files in that package.
+
+Each mini-practicum counts as a homework assignment. 
+==============================================================================
+
+1. Recall the classic FizzBuzz exercise where "FizzBuzz" is printed out when an
+   integer that is evenly divisble by 3 and evenly divisible by 5 is encountered.
+
+   Create a FizzBuzz class in the practicum package.  In main, initialize an
+   IntStream with values from 1 to 100 using the rangeClosed(lower,upper) method.
+
+   Using the IntStream and the Stream filter() and forEach() methods, print out
+   "FizzBuzz: <value>" for each value in the IntStream that is evenly divisible
+   by 3 and 5.
+
+   Expected output:
+      FizzBuzz: 15
+      FizzBuzz: 30
+      FizzBuzz: 45
+      FizzBuzz: 60
+      FizzBuzz: 75
+      FizzBuzz: 90
+   
+2. You are familiar with logical operators as we have been using them in 
+   conditional statements
+      And (&&)
+      Or (||)
+      Xor (^)
+
+   Create a BinaryOps class in the practicum folder with an inner functional
+   interface:
+      public interface BinaryLogicalOp {
+         boolean compute(boolean a,boolean b);
+      }
+
+   In main, define three BinaryLogicalOp variables and initialize each as
+   follows:
+   
+   BinaryLogicalOp and = <method reference (see below)>
+   BinaryLogicalOp or = <anonymous class>
+   BinaryLogicalOp xor = <lambda>
+
+   For the method reference implementation only, you may use a method from the
+   Boolean wrapper class:
+      public static boolean logicalAnd(boolean a, boolean b)
+ 
+   Using the three BinaryLogicalOp variables above, and two boolean variables,
+   a and b, print the results of calling the compute() method of each binary
+   logical operation for each combination of a and b.
+
+   Expected Output (line order may differ):
+      A: false, B: false, AND: false, OR: false, XOR: false
+      A: false, B: true, AND: false, OR: true, XOR: true
+      A: true, B: false, AND: false, OR: true, XOR: true
+      A: true, B: true, AND: true, OR: true, XOR: false

@@ -1,0 +1,44 @@
+Nouns:
+
+product
+name
+unique product code
+manufacturer's suggested retail price (MSRP)
+truck
+capacity
+factory
+kind of product
+Car Factory
+complex
+assortment
+front
+back
+
+
+Verbs:
+
+determines
+loaded
+unloaded
+manufactures
+arrives
+
+
+Complex:
+    number of factories (int)
+    f(load products to trucks)
+
+Truck:
+    capacity (int)
+    loaded items (array)
+    f(load)
+    f(unload)
+
+Factory:
+    product Type (enum?)
+
+Product:
+    name (String)
+    MSRP (int)
+    code (String)
+    

@@ -1,0 +1,38 @@
+Unit 05 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in the practicum folder.
+
+Each mini-practicum counts as a homework assignment. 
+=======================================================
+
+1. Open the uml.png file provided in the unit06.practicum package and 
+review the UML diagram.
+
+2. Create a generic interface named Stack<E> using the diagram as a guide.
+
+3. Create an array-based implementation, ArrayStack<E>, of the Stack. 
+
+   Each time you create a new method you should test it manually in main. 
+
+   Use the UML diagram in uml.png as a guide where:
+        - size() returns the number of elements in a stack.
+        - top() returns the value of the top element in the stack.
+        - push() adds a value to the top of the stack.
+        - pop() removes and returns the value at the top of the stack.
+        - toString() returns the elements in the stack formatted as 
+          "[<top value>, <next value>, …, <bottom value>]"
+
+4. Make the Stack<E> iterable by extending the Iterable<E> interface.
+
+5. Use the ArrayIterator class provided in the practicum folder to 
+   implement the iterator method in ArrayStack. Test that it works by using 
+   an ArrayStack in a for each loop.
+
+6. The final UML is provided in the referece.png file as a reference. You 
+   do not need to use it but you may find it useful as a guide for parts 4 and 
+   5.

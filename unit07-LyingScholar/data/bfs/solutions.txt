@@ -1,0 +1,21 @@
+Data format in graph*.txt:
+---------------------------------------------------------------------
+c f         # source
+a b e       # target
+a b c       # a->b, a->c
+b c e f     # b->c, b->e, b->f
+c e d       # c->e, c->d
+f c         # f->c
+-----------------------------------------------------------------------
+Solutions: There could be other paths besides the ones mentioned below.
+------------------------------------------------------------------------
+graph1: [A, B]
+graph2: null
+graph3: [A, D, C]
+graph4: [B, D, E]
+graph5: [1, 12, 7]
+graph6: [3, 11, 20]
+graph7: [4, 1, 12, 18]
+graph8: [10, 14, 17, 11, 40, 35, 36, 30]
+graph9: [33, 722, 643, 1054, 2263, 2470] or [16, 863, 307, 1054, 2263, 2470] or [41, 1349, 226, 1054, 2263, 2470]
+graph10: null

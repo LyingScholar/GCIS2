@@ -1,0 +1,38 @@
+Unit 04 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. 
+======================
+
+1. You have been provided with code that implements a high-low model and a 
+   simple GUI. If you have not done so already, familiarize yourself with the 
+   following classes and interfaces:
+   - unit05.hilo.model.HiLo
+   - unit05.hilo.model.HiLoObserver
+   - unit05.hilo.view.HiLoGUI
+
+
+2. When you run HiLoGUI, the game board should be displayed (see hilo01.png).
+
+
+3. Your task is to complete the provided code so that if the user enters a 
+   number in the text field, the GUI is updated as follows:
+   a. The first row (a text field) should be cleared so that the user can enter
+      the next guess.
+   b. The second row (a label) should display one of the following messages 
+      (where <guess> is the number that was guessed): 
+      - <guess> is too high!
+      - <guess> is too low!
+      - <guess> is correct. You won!
+      - You lost! The secret number was <secret number>
+   c. The third row (a label) should display the number of available guesses 
+      (see hilo02.png).
+      
+

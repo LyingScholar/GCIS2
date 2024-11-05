@@ -1,0 +1,64 @@
+Unit 08 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in the practicum folder.
+
+Each mini-practicum counts as a homework assignment. 
+==============================================================================
+
+1. A course has a name, a start time, and an end time. The duration is the 
+   difference between the end and start times. A Java class representing a 
+   Course has been provided to you. It includes a method that will return a 
+   list of courses suitable for testing your algorithm.
+
+   Assume that a student is choosing from a set of available courses and wants
+   to create a schedule that maximizes the number of courses they can take. For
+   the purposes of this exercise, you may assume that all courses meet on the 
+   same days each week, and so the only real constraint is that a student may 
+   not schedule two courses that overlap. Note that a course that ends at one
+   time DOES NOT overlap another course that begins at the same time.
+
+   Create a new Java class in a file named "ScheduleMaker.java" in the 
+   practicum package and define a static method named "makeSchedule" that 
+   declares a parameter for a list of courses. This list represents the 
+   available options that a student may choose for their schedule. The function
+   should return the list of courses that have been selected for the student's 
+   schedule. Remember, the goal is to create a schedule with as many courses as
+   possible wherein none of the courses overlap.
+ 
+   Describe a greedy algorithm for choosing courses for the schedule using 
+   pseudocode as inline comments only and COMMIT YOUR WORK. To receive credit
+   for this problem, you MUST commit your pseudocode before attempting to 
+   implement it.
+   
+   Once you have committed your pseudocode, implement your algorithm. Hint: you
+   may need to create at least one additional class to help you. In the JavaDoc
+   for your solution indicate whether or not your solution will always return 
+   the optimal result, i.e. the schedule with the most courses possible.
+
+
+2. Create a new Java class in a file named "Word.java" in the assignment 
+   package and define a main method with the appropriate signature. Use the 
+   provided weighted graph implementation in the graphs package of your 
+   repository to build a weighted graph such that, when Dijkstra's Algorithm is
+   used to find a path between two specific values in the graph, the path 
+   spells an English word. 
+   
+   There are some rules/guidelines:
+   - It should go without saying (but we will anyway) that you should not 
+     choose a word that another individual will find offensive. 
+   - Every value in the graph must be a single letter, e.g. "P", "R", "A", 
+     etc. No words or phrases.
+   - Every value must be connected to at least three other values in the graph.
+   - The first and last letters of the word must be connected directly by an 
+     edge.
+   - Every value in the graph is unique, and so words with 2 of the same letter
+     will require you to use different capitalization, e.g. "PRACTIcUM". If it 
+     has 3 or more of the same letter you will need to get creative (or choose
+     a different word).
+   - The letters in the word must appear in the correct order when printing the
+     WPath, e.g. [P, R, A, C, T, I, c, U, M], weight=17.0

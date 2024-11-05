@@ -1,0 +1,27 @@
+package unit10.Concurrency;
+
+public class RunnableCounter implements Runnable{
+    private String name;
+
+    public RunnableCounter(String name){
+        this.name = name;
+    }
+
+    @Override
+    public void run() {
+        for(int i = 1;i<=100;i++){
+            System.out.println(name + ": "+ i);
+        }
+    }
+    public static void main(String[] args) {
+        RunnableCounter counter = new RunnableCounter("Runnable Counter");
+
+        Thread runnableCounter = new Thread(counter);
+        runnableCounter.start();
+
+        for(char ch ='A'; ch <= 'Z';ch++){
+            System.out.print(ch + " ");
+        }
+        System.out.println("");
+    }
+}

@@ -1,0 +1,43 @@
+Unit 10 Mini-Practicum
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create a new package under unit11 named 'practicum' and place all
+of your required files in that package.
+
+Each mini-practicum counts as a homework assignment. 
+==============================================================================
+
+1. Create a new Java class named "EvensAndOdds.java" in the practicum package 
+   and define a main method with the appropriate signature.  
+      a. Start a thread that prints all of the odd numbers from 1 to 99.
+      b. Start a second thread that prints all of the even numbers from 2 to 
+         100.
+      c. Using only Thread.sleep(ms), make sure that the threads are 'very 
+         likely' to print all of the numbers from 1 to 100 in order.  You may 
+         need to use Thread.sleep(ms) in more than one place.  (It may be
+         impossible to guarantee that this will happen using only sleep, but
+         your solution should produce the correct output nearly all of the 
+         time.)
+      d. You may create additional classes to solve this problem, but you are 
+         not required to do so.
+
+2. Create a new Java class in a file named "SequentialCount.java" and define a
+   main method with the appropriate signature.
+      a. Prompt the user to enter a positive number n.
+      b. Create a separate thread for each value from 1 to N (inclusive).  Each
+         thread should print exactly one number.  Using only join(), you must
+         guarantee that the numbers print in ascending order every time the 
+         program runs on any computer.
+      c. The main method should create and start the threads, but should not 
+         use any other thread methods.
+
+         Enter number: 5
+         1
+         2
+         3
+         4
+         5

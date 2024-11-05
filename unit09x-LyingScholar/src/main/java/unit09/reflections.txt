@@ -1,0 +1,4 @@
+we did lambdas today.
+4 ways to sort a list of names, each getting easier and shorter
+kinda didnt understand the :: thing, so probably gonna research that later
+the filters seem the most useful part, kind replace for loops in data parsing

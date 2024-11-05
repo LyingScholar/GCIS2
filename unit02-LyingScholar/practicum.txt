@@ -1,0 +1,44 @@
+Unit 01 Practice Problems
+
+The goal of these "mini practica" is to give you practice with coding problems
+similar to those that you will see on the midterm practica. You will be 
+required to solve each problem with minimal assistance. You should use these
+mini-practica as an opportunity to gauge your preparedness for the exams.
+
+You should create all of your required files in this folder along with these
+instructions.
+
+Each mini-practicum counts as a homework assignment. 
+======================
+
+1. Create a new Java class named "Practice01" under the "unit02" folder and
+   define a static function named "arrayToString" that declares a parameter
+   for an int array and returns a String. Your function should translate the
+   array into a string in the format "[1, 2, 3]" (do not use the
+   Arrays.toString() method to do it for you).
+
+
+2. Create a JUnit unit test for your Practice01 class. Write at least two tests
+   to verify that your arrayToString function is working properly.
+
+
+3. Define a method named "printLines" that declares parameters for a filename 
+   and a lowercase letter. The method should do the following:
+   
+   a. Print all of the lines in the file that start with the specified letter 
+      (uppercase or lowercase). For example, the letter 'y' would match a line
+      starting with "You" or "yet". Hint: you can use str.toLowerCase() to get 
+      a copy of str with all of the letters converted to lowercase.
+   b. Return the number of lines that were printed. 
+   c. Handle any exceptions that occur by printing a message. 
+   
+   Add a main method to the class to test your printLines function with the 
+   provided alice.txt file and the letter(s) of your choice. The expected 
+   counts for some letters are shown below.
+
+   a  262
+   b  76
+   c  89
+   x  0
+   y  37
+   z  0

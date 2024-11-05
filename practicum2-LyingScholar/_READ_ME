@@ -1,0 +1,18 @@
+Midterm 2
+
+If you have not already done so, review the Exam Guidelines
+https://docs.google.com/document/d/18pnn71PIsrdLxg-KQlyN-gfImUz7acddOlnpD7BBuA4/edit?usp=drive_link
+
+There are 3 questions and the exam is graded out of a total of 70 points.  There is an instruction file in each 
+package with a name like <package>_instructions.png file in each package.
+
+You are encouraged to read each problem in its entirety and give thought to design and classes before coding.
+
+1) counter - Given a GUI, create the observer classes required, and enable them in the GUI to make it functional.
+    30 points
+
+2) populous - Given classes, produce viewable output, then sort 2 different ways.
+    20 points
+   
+3) traversal - Traverse a binary tree using different traversal methods, and also determine total, min and max.
+    20 points

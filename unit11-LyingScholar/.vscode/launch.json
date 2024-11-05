@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Intersection",
+            "request": "launch",
+            "mainClass": "unit11.trafficlights.Intersection",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "unit11.chevre.Main",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Goat",
+            "request": "launch",
+            "mainClass": "unit11.chevre.Goat",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "unit11.HelloWorld",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Consumer",
+            "request": "launch",
+            "mainClass": "unit11.activities.Consumer",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Deadlock",
+            "request": "launch",
+            "mainClass": "unit11.activities.Deadlock",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "HelloThread",
+            "request": "launch",
+            "mainClass": "unit11.activities.HelloThread",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "ListAdder",
+            "request": "launch",
+            "mainClass": "unit11.activities.ListAdder",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "NameThread",
+            "request": "launch",
+            "mainClass": "unit11.activities.NameThread",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Producer",
+            "request": "launch",
+            "mainClass": "unit11.activities.Producer",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "TheCount",
+            "request": "launch",
+            "mainClass": "unit11.activities.TheCount",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Waiter",
+            "request": "launch",
+            "mainClass": "unit11.activities.Waiter",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "GreedyGreedyGoats",
+            "request": "launch",
+            "mainClass": "unit11.chevre.GreedyGreedyGoats",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "Utils",
+            "request": "launch",
+            "mainClass": "unit11.chevre.Utils",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "EvensAndOdds",
+            "request": "launch",
+            "mainClass": "unit11.practicum.EvensAndOdds",
+            "projectName": "unit11"
+        },
+        {
+            "type": "java",
+            "name": "SequentialCount",
+            "request": "launch",
+            "mainClass": "unit11.practicum.SequentialCount",
+            "projectName": "unit11"
+        }
+    ]
+}
